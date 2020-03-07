@@ -26,6 +26,9 @@
 
     &.large {
       height: 380px;
+      @media screen and (max-width: 800px) {
+        height: 200px; 
+      }
     }
 
     &:first-child {
@@ -66,6 +69,10 @@
         font-weight: lighter;
         font-size: 16px;
       }
+    }
+
+    @media screen and (max-width: 800px) {
+      height: 200px; 
     }
   }
   
